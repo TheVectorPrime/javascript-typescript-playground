@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning DOM</title>
+    <link rel="stylesheet" href="learn.css">
+</head>
+<body>
+
+    <audio id="attackSound" src="./sounds/Dusttale%20Music.m4a"></audio>
+    <audio id="finalSound" src="./sounds/Undertale%20Sound%20Effect%20-%20You%20Win!.mp3"></audio>
+
+    <h1 style="padding-top: 30px; font-size: 3rem;">
+        DUSTTALE DEMO GAMEPLAY</h1>
+
+    <div class="container">
+        <div id="sans-hp-red">
+            <div id="sans-hp-green"></div>
+        </div>
+
+        <div class="box" id="sans-img">
+            <img id="sans-head" src="./images/Sans_Head.png"
+                 alt="" width="200" height="130"/>
+            <br>
+            <img id="sans-body" src="./images/Sans_Body.png"
+                 alt="" width="200" height="160"/>
+        </div>
+
+        <h1 id="finalText" style="display: none; font-size: 3rem"></h1>
+    </div>
+
+    <div class="menu">
+        <div class="chara_menu2">
+            <h1 id="charaName"></h1>
+            <h1 id="charaLevel"></h1>
+            <div id="hp-red">
+                <div id="hp-bar"></div>
+            </div>
+            <h1>HP</h1>
+            <h1 id="charaHealth"></h1>
+        </div>
+
+        <div class="chara_menu1">
+            <button id="fight">FIGHT</button>
+            <button id="act">ACT</button>
+            <button id="item">ITEM</button>
+            <button id="mercy">MERCY</button>
+        </div>
+    </div>
+
+    <script type="module" src="main.ts"></script>
+</body>
+</html>

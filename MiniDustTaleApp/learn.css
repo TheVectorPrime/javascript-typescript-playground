@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 41vh;
+    display: grid;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.menu .chara_menu1 {
+    width: 100%;
+    height: 25vh;
+}
+
+.menu .chara_menu1 button {
+    width: 150px;
+    height: 75px;
+    margin: 0px 30px;
+    border-radius: 3px;
+    border: 6px solid #fda400;
+    background-color: #000000;
+    color: #fda400;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.menu .chara_menu1 button:hover {
+    border: 6px solid #fdf000;
+    color: #fdf000;
+}
+
+.menu .chara_menu2 {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu .chara_menu2 h1 {
+    display: inline-block;
+}
+
+.menu .chara_menu2 #hp-red {
+    width: 300px;
+    height: 40px;
+    background-color: #ff0000;
+}
+
+.menu .chara_menu2 #hp-red #hp-bar {
+    width: 100%;
+    height: 40px;
+    background-color: #f3ff00;
+}
+
+.menu .sans_menu {
+    width: 25%;
+    height: 50vh;
+}
+
+.container #sans-hp-red {
+    width: 600px;
+    height: 25px;
+    background-color: #ff0000;
+    margin-top: 40px;
+    visibility: hidden;
+}
+
+.container #sans-hp-green {
+    width: 100%;
+    height: 25px;
+    background-color: #00c60c;
+}
+
+.shake {
+    animation: shake 0.4s infinite;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0px); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(0px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+
+
+
+
+
+
+
+
+
+

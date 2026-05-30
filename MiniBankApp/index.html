@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vector Mini Bank App</title>
+</head>
+<body>
+
+<!-- 1. Info Screen Zone -->
+<h2>--- VECTOR BANK INTERFACE ---</h2>
+<p>Your Balance: <strong id="display-balance">10000</strong> $</p>
+<p>Your Infrastructure: <strong id="display-infra">VISA</strong></p>
+<p>Limit of Your Card: <strong id="display-limit">30000</strong> $</p>
+
+<hr>
+
+<!-- 2. Input and Process Zone -->
+<h3>Action Zone</h3>
+<label for="amount-input">Enter an amount: </label>
+<input type="number" id="amount-input" placeholder="Örn: 500">
+
+<br><br>
+
+<button id="btn-withdraw">1-) Withdraw Money</button>
+<button id="btn-deposit">2-) Deposit Money</button>
+<button id="btn-cash-advance">3-) Cash Advance</button>
+
+<hr>
+
+<!-- 3. State Notification Zone -->
+<h3>System Notification</h3>
+<p id="system-message">Please select a process...</p>
+
+<!-- LINK YOUR JS FILE (Remember to add this!) -->
+<script src="index.js"></script>
+</body>
+</html>

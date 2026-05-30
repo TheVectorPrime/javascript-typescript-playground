@@ -1,0 +1,31 @@
+# Temporary and build files
+/tmp
+/out-tsc
+/dist/
+
+# Node modules
+/node_modules/
+
+# IDE folders
+/.idea/
+/.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# System files
+*.DS_Store
+
+# Environment files
+*.env
+
+# Yarn PnP
+.pnp
+.pnp.js
+
+# Other Project Folders
+CreateDeleteTask/
+MiniDustTaleApp/
